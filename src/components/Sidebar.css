@@ -122,3 +122,12 @@ margin-right: 5px;
 .edit-profile:hover {
   transform: scale(1.03);
 }
+
+.action-btn{
+  color: white;
+}
+.actions{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20%;
+}

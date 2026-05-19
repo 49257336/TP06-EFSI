@@ -18,7 +18,7 @@ function App() {
         image: cat.url,
         username: `cat_user_${index}`,
         likes: Math.floor(Math.random() * 1000),
-        caption: "Cute cat 😺"
+        caption: "Cute cat"
         }));
 
        setPosts(formattedPosts);

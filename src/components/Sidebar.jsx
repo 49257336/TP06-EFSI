@@ -3,10 +3,10 @@ import "./Sidebar.css"
 
 function Sidebar(){
     const user = {
-            username: "catlover",
+            profile_name: "CatLover",
             followers: 1200,
             following: 300,
-            bio: "I love cats"
+            username: "@cat_lover"
         };
 
         return (
@@ -21,11 +21,11 @@ function Sidebar(){
             </div>
 
             <h2 className="username">
-                {user.username}
+                {user.profile_name}
             </h2>
 
             <p className="bio">
-                {user.bio}
+                {user.username}
             </p>
 
             <div className="stats">
@@ -45,6 +45,14 @@ function Sidebar(){
             <button className="edit-profile">
                 Edit Profile
             </button>
+
+            <section className="actions">
+                <div className="action-btn"><p>Home</p></div>
+                <div className="action-btn"><p>Explore</p></div>
+                <div className="action-btn"><p>Reels</p></div>
+                <div className="action-btn"><p>¡GTV</p></div>
+                <div className="action-btn"><p>Notifications</p></div>              
+            </section>
 
             </aside>
         );
