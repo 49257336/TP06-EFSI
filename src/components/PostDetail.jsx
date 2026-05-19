@@ -8,3 +8,4 @@ function PostDetail({ selectedPost, closeModal }) {
     </div>
   );
 }
+export default PostDetail

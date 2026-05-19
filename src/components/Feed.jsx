@@ -1,6 +1,9 @@
-function Feed(posts){
+import Post from "./Post";
+import "./Feed.css"
+
+function Feed({posts}){
     return(
-        <div>
+        <div className="feed">  
             {posts.map(post => (
                 <Post
                     key={post.id}
@@ -10,3 +13,4 @@ function Feed(posts){
         </div>
     );
 }
+export default Feed

@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
 import { getCats } from "./api";
+import Feed from "./components/Feed";
+import Sidebar from "./components/Sidebar"
+import Header from "./components/Header"
 
 import './App.css'
 
@@ -27,8 +30,13 @@ function App() {
   return (
     <>
       <Header />
-      <Sidebar />
-      <Feed posts={posts} />
+      <div className="app-layout">
+        <Sidebar />
+        <Feed
+          posts={posts}
+          onSelectPost={setSelectedPost}
+        />
+      </div>
     </>
   );
 }

@@ -1,0 +1,86 @@
+.sidebar {
+  height: 100vh;
+
+  background-color: #111036;
+
+  border-right: 1px solid rgba(255,255,255,0.08);
+
+  padding: 30px 20px;
+
+  position: sticky;
+
+  top: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 25px;
+}
+
+.profile-picture {
+  width: 90px;
+  height: 90px;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+
+  border: 3px solid #ff4ecd;
+}
+
+.username {
+  color: white;
+
+  font-size: 1.3rem;
+
+  font-weight: bold;
+}
+
+.bio {
+  color: #b7b7d1;
+
+  line-height: 1.5;
+}
+
+.stats {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+
+  color: white;
+}
+
+.stats span {
+  font-size: 0.95rem;
+}
+
+.edit-profile {
+  margin-top: 10px;
+
+  padding: 12px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background: linear-gradient(
+    45deg,
+    #ff3cac,
+    #784ba0,
+    #2b86c5
+  );
+
+  color: white;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.edit-profile:hover {
+  transform: scale(1.03);
+}
