@@ -1,17 +1,11 @@
 .post {
-  width: 500px;
-
-  background-color: #15133c;
-
-  border-radius: 20px;
-
-  overflow: hidden;
-
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-
-  transition: 0.3s;
-
-  cursor: pointer;
+    width: 350px;
+    background-color: #15133c;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 .post:hover {
@@ -51,11 +45,6 @@
   transition: 0.3s;
 }
 
-/*
-.post:hover .post-image {
-  transform: rotate(-3deg) scale(1.03);
-}
-*/
 .post-content {
   padding: 20px;
 }

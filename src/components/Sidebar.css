@@ -14,7 +14,24 @@
   display: flex;
   flex-direction: column;
 
-  gap: 25px;
+  gap: 16px;
+
+  align-items: center;
+}
+.stat_btn{
+  color:white;
+  background-color: #282745;
+  border: none;
+  height: 30px;
+  border-radius: 7px;
+  width: 80px;
+}
+.heart-icon, .person-icon{
+width: 20px;
+height: 20px;
+margin-right: 5px;
+
+
 }
 
 .profile-picture {
@@ -25,8 +42,25 @@
 
   object-fit: cover;
 
-  border: 3px solid #ff4ecd;
 }
+.profile-border{
+     width: 100px;
+  height: 100px;
+
+  border-radius: 50%;
+
+  background: linear-gradient(
+    45deg,
+    #E1306C,
+    #833AB4,
+    #405DE6
+  );
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .username {
   color: white;
@@ -34,18 +68,22 @@
   font-size: 1.3rem;
 
   font-weight: bold;
+
+   margin: 0%;
 }
 
 .bio {
   color: #b7b7d1;
 
   line-height: 1.5;
+
+  margin: 0%;
 }
 
 .stats {
   display: flex;
 
-  flex-direction: column;
+  flex-direction: row;
 
   gap: 10px;
 
@@ -67,9 +105,9 @@
 
   background: linear-gradient(
     45deg,
-    #ff3cac,
-    #784ba0,
-    #2b86c5
+    #E1306C,
+    #833AB4,
+    #405DE6
   );
 
   color: white;

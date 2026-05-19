@@ -17,11 +17,10 @@ function Header() {
 
       <div className="header-icons">
 
-        <button>⚙</button>
+        <button className="icon-btn">⚙</button>
+        <button className="icon-btn">📷</button>
+        <button className="icon-btn">✈</button>
 
-        <button>📷</button>
-
-        <button>✈</button>
 
         <button className="new-post">
           + New Post
