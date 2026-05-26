@@ -75,6 +75,10 @@ function App() {
         username: usernames[
           Math.floor(Math.random() * usernames.length)
         ],
+         profilePicture:
+    `https://i.pravatar.cc/150?img=${
+      Math.floor(Math.random() * 70)
+    }`,
         likes: Math.floor(Math.random() * 1000),
         caption:
         captions[

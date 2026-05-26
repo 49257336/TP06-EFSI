@@ -10,6 +10,7 @@
 .story{
     align-content: center;
     text-align: center;
+    cursor: pointer;
 }
 .user{
     color: #b7b7d1;
