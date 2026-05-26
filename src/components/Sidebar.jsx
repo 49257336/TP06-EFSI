@@ -48,7 +48,7 @@ function Sidebar(){
                 <div className="action-btn"><p>Home</p></div>
                 <div className="action-btn"><p>Explore</p></div>
                 <div className="action-btn"><p>Reels</p></div>
-                <div className="action-btn"><p>¡GTV</p></div>
+                <div className="action-btn"><p>İGTV</p></div>
                 <div className="action-btn"><p>Notifications</p></div>              
             </section>
 

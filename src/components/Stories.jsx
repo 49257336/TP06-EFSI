@@ -47,6 +47,8 @@ function Stories(){
   ];
 
     return(
+        <>
+        <img src="src/assets/STORIES.png" alt="stories" className='STORIES'/>
         <section className="stories">
             {stories.map(story => (
                 <div className='story'>
@@ -61,6 +63,7 @@ function Stories(){
                 </div>
             ))}
         </section>
+        </>
     );
 }
 

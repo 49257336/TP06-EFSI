@@ -1,3 +1,8 @@
+
+.STORIES{
+    width:150px;
+    padding: 30px 0px 0px 30px;
+}
 .stories{
     height: 120px;
     display: flex;
