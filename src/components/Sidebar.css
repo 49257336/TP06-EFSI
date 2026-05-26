@@ -1,21 +1,13 @@
 .sidebar {
   height: 100vh;
-
   background-color: #111036;
-
   border-right: 1px solid rgba(255,255,255,0.08);
-
   padding: 30px 20px;
-
   position: sticky;
-
   top: 0;
-
   display: flex;
   flex-direction: column;
-
   gap: 16px;
-
   align-items: center;
 }
 .stat_btn{
@@ -27,35 +19,27 @@
   width: 80px;
 }
 .heart-icon, .person-icon{
-width: 20px;
-height: 20px;
-margin-right: 5px;
-
-
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
 }
 
 .profile-picture {
-  width: 90px;
-  height: 90px;
-
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
-
   object-fit: cover;
-
 }
 .profile-border{
-     width: 100px;
-  height: 100px;
-
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
-
   background: linear-gradient(
     45deg,
     #E1306C,
     #833AB4,
     #405DE6
   );
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,32 +47,24 @@ margin-right: 5px;
 
 .username {
   color: white;
-
   font-size: 1.3rem;
-
   font-weight: bold;
-
    margin: 0%;
-
    font-family: sans-serif;
 }
 
 .bio {
   color: #b7b7d1;
-
   line-height: 1.5;
-
   margin: 0%;
 }
 
 .stats {
   display: flex;
-
   flex-direction: row;
-
   gap: 10px;
-
   color: white;
+  margin-top: 10px;
 }
 
 .stats span {
@@ -103,7 +79,9 @@ margin-right: 5px;
   color: white;
 }
 .actions{
-  display: flex;
-  flex-direction: column;
-  margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    justify-content: space-evenly;
+    gap: 20px;
 }

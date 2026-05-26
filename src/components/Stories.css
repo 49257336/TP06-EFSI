@@ -2,9 +2,9 @@
     height: 120px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 20px;
 
 }
 .story{
@@ -15,7 +15,7 @@
     color: #b7b7d1;
     margin-top:2px;
 }
-.profile-picture {
+.story-picture {
   width: 90px;
   height: 90px;
 
@@ -24,7 +24,7 @@
   object-fit: cover;
 
 }
-.profile-border{
+.story-border{
      width: 100px;
   height: 100px;
 

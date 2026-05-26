@@ -5,9 +5,10 @@ function Header() {
   return (
     <header className="header">
 
-      <h1 className="logo">
-        Instagram
-      </h1>
+      <div className="logos">
+      <img src="src\assets\simple-icons_instagram.png" alt="logo" />
+      <img src="src\assets\logos_instagram.png" alt="logo" />
+      </div>
 
       <input
         type="text"

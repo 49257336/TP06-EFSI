@@ -15,11 +15,12 @@ function Sidebar(){
             <div className="profile-border">
             <img
                 className="profile-picture"
-                src="https://i.pravatar.cc/150?img=32"
+                src="https://i.pravatar.cc/170?img=32"
                 alt="profile"
             />
             </div>
 
+            <section className="name">
             <h2 className="username">
                 {user.profile_name}
             </h2>
@@ -27,6 +28,7 @@ function Sidebar(){
             <p className="bio">
                 {user.username}
             </p>
+            </section>
 
             <div className="stats">
 

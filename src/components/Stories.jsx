@@ -39,6 +39,10 @@ function Stories(){
     {
       username: "jazmín",
       image: "https://i.pravatar.cc/150?img=25"
+    },
+    {
+      username: "ellen",
+      image: "https://i.pravatar.cc/150?img=47"
     }
   ];
 
@@ -46,9 +50,9 @@ function Stories(){
         <section className="stories">
             {stories.map(story => (
                 <div className='story'>
-                <div className="profile-border">
+                <div className="story-border">
                     <img
-                        className="profile-picture"
+                        className="story-picture"
                         src={story.image}
                         alt="profile"
                     />
