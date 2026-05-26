@@ -45,11 +45,12 @@ function Sidebar(){
             </div>
 
             <section className="actions">
-                <div className="action-btn"><p>Home</p></div>
-                <div className="action-btn"><p>Explore</p></div>
-                <div className="action-btn"><p>Reels</p></div>
-                <div className="action-btn"><p>İGTV</p></div>
-                <div className="action-btn"><p>Notifications</p></div>              
+                <div className="action-btn"><img src="src/assets/HOME.png" alt="home" className="action_icon"/></div>
+                <div className="action-btn"><img src="src/assets/Explore.png" alt="explore" className="action_icon"/></div>
+                <div className="action-btn"><img src="src/assets/Reels.png" alt="reels" className="action_icon"/></div>
+                <div className="action-btn"><img src="src/assets/Notification.png" alt="igtv" className="action_icon"/></div>
+                <div className="action-btn"><img src="src/assets/HOME.png" alt="notifications" className="action_icon"/></div>
+      
             </section>
 
             </aside>

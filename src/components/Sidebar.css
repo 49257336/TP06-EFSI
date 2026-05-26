@@ -17,6 +17,10 @@
   height: 30px;
   border-radius: 7px;
   width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 .heart-icon, .person-icon{
   width: 20px;
@@ -77,6 +81,11 @@
 
 .action-btn{
   color: white;
+  cursor: pointer;
+}
+.action_icon{
+    width: auto;
+    height: 60%;
 }
 .actions{
     display: flex;
@@ -84,4 +93,5 @@
     margin-top: 20%;
     justify-content: space-evenly;
     gap: 20px;
+    width:90%;
 }
