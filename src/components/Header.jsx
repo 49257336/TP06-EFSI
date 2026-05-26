@@ -18,14 +18,12 @@ function Header() {
 
       <div className="header-icons">
 
-        <button className="icon-btn">⚙</button>
-        <button className="icon-btn">📷</button>
-        <button className="icon-btn">✈</button>
+        <img src="src/assets/icon-settings.png" alt="settings" className="icon-btn"/>
+        <img src="src/assets/icon-camera.png" alt="camera" className="icon-btn"/>
+        <img src="src/assets/icon-share.png" alt="share" className="icon-btn"/>
 
 
-        <button className="new-post">
-          + New Post
-        </button>
+        <img src="src/assets/new-post.png" alt="new post" className="new-post"/>
 
       </div>
 
