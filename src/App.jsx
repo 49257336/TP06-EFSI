@@ -3,6 +3,7 @@ import { getCats } from "./api";
 import Feed from "./components/Feed";
 import Sidebar from "./components/Sidebar"
 import Header from "./components/Header"
+import Stories from "./components/Stories";
 
 import './App.css'
 
@@ -32,10 +33,13 @@ function App() {
       <Header />
       <div className="app-layout">
         <Sidebar />
+        <section>
+        <Stories />
         <Feed
           posts={posts}
           onSelectPost={setSelectedPost}
         />
+        </section>
       </div>
     </>
   );

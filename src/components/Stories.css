@@ -1,0 +1,43 @@
+.stories{
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.story{
+    align-content: center;
+    text-align: center;
+}
+.user{
+    color: #b7b7d1;
+    margin-top:2px;
+}
+.profile-picture {
+  width: 90px;
+  height: 90px;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+
+}
+.profile-border{
+     width: 100px;
+  height: 100px;
+
+  border-radius: 50%;
+
+  background: linear-gradient(
+    0deg,
+    #E1306C,
+    #833AB4,
+    #405DE6
+  );
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

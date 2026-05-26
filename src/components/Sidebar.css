@@ -61,7 +61,6 @@ margin-right: 5px;
   justify-content: center;
 }
 
-
 .username {
   color: white;
 
@@ -70,6 +69,8 @@ margin-right: 5px;
   font-weight: bold;
 
    margin: 0%;
+
+   font-family: sans-serif;
 }
 
 .bio {
@@ -92,31 +93,6 @@ margin-right: 5px;
 
 .stats span {
   font-size: 0.95rem;
-}
-
-.edit-profile {
-  margin-top: 10px;
-
-  padding: 12px;
-
-  border: none;
-
-  border-radius: 12px;
-
-  background: linear-gradient(
-    45deg,
-    #E1306C,
-    #833AB4,
-    #405DE6
-  );
-
-  color: white;
-
-  font-weight: bold;
-
-  cursor: pointer;
-
-  transition: 0.3s;
 }
 
 .edit-profile:hover {

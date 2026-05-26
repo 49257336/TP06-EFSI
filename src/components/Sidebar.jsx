@@ -42,10 +42,6 @@ function Sidebar(){
 
             </div>
 
-            <button className="edit-profile">
-                Edit Profile
-            </button>
-
             <section className="actions">
                 <div className="action-btn"><p>Home</p></div>
                 <div className="action-btn"><p>Explore</p></div>
