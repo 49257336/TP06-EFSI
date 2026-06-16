@@ -48,8 +48,8 @@ function Sidebar(){
                 <div className="action-btn"><img src="src/assets/HOME.png" alt="home" className="action_icon"/></div>
                 <div className="action-btn"><img src="src/assets/Explore.png" alt="explore" className="action_icon"/></div>
                 <div className="action-btn"><img src="src/assets/Reels.png" alt="reels" className="action_icon"/></div>
-                <div className="action-btn"><img src="src/assets/Notification.png" alt="igtv" className="action_icon"/></div>
-                <div className="action-btn"><img src="src/assets/HOME.png" alt="notifications" className="action_icon"/></div>
+                <div className="action-btn"><img src="src/assets/IGTV.png" alt="igtv" className="action_icon"/></div>
+                <div className="action-btn"><img src="src/assets/Notification.png" alt="notifications" className="action_icon"/></div>
       
             </section>
 
