@@ -39,7 +39,7 @@
   height: 130px;
   border-radius: 50%;
   background: linear-gradient(
-    45deg,
+    0deg,
     #E1306C,
     #833AB4,
     #405DE6
@@ -75,9 +75,6 @@
   font-size: 0.95rem;
 }
 
-.edit-profile:hover {
-  transform: scale(1.03);
-}
 
 .action-btn{
   color: white;
