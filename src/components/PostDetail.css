@@ -10,7 +10,16 @@
 .modal-overlay.active {
   display: flex;
 }
-
+.post_detail_action {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.post_detail_actions{
+  display: flex;
+    gap: 15px;
+        flex-direction: row;
+}
 .modal-content {
   width: 800px;
   background-color: #15133c;
@@ -20,7 +29,8 @@
   display: flex;
 }
 
-.modal-content img {
+
+.post_img {
   width: 50%;
   height: 600px;
   object-fit: cover;

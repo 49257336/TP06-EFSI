@@ -48,7 +48,6 @@ function App() {
         "fluffybeans",
         "mistermeow",
         "catdaily",
-
         "napqueen",
         "purrfect",
         "midnightcat",
@@ -69,6 +68,7 @@ function App() {
         "lazywhiskers",
         "meowmood"
       ];
+
        const formattedPosts = data.map((cat, index) => ({
         id: cat.id,
         image: cat.url,
@@ -84,6 +84,7 @@ function App() {
         captions[
           Math.floor(Math.random() * captions.length)
         ]
+        
         }));
 
        setPosts(formattedPosts);
