@@ -3,10 +3,10 @@ import "./Sidebar.css"
 
 function Sidebar(){
     const user = {
-            profile_name: "CatLover",
+            profile_name: "Uğur Mercan",
             followers: 1200,
             following: 300,
-            username: "@cat_lover"
+            username: "@ugur_mercan0"
         };
 
         return (
@@ -15,7 +15,7 @@ function Sidebar(){
             <div className="profile-border">
             <img
                 className="profile-picture"
-                src="https://i.pravatar.cc/170?img=32"
+                src="src/assets/profile.png"
                 alt="profile"
             />
             </div>

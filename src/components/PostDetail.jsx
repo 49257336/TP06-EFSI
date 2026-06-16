@@ -29,6 +29,8 @@ function PostDetail({ selectedPost, closeModal }) {
             <h2>@{selectedPost.username}</h2>
 
             <p>{selectedPost.caption}</p>
+
+           
             </div>
 
           </div>
